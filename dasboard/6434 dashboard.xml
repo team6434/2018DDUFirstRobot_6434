@@ -1,0 +1,103 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="Check Position" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="216"/>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="7" y="84"/>
+		<property name="Text" value="1=Left  2=Middle  3=Right"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="225" y="87"/>
+		<property name="Text" value="DO NOT CLOSE SMART DASHBOARD HOLLY WILL SHOOT YOU!!!!!!!!!!!!!!!"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="639" y="6"/>
+		<property name="Text" value="COMMUNICATIONS"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="169" y="359"/>
+		<property name="Text" value="LIFT"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="166" y="252"/>
+		<property name="Text" value="INTAKE"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="148" y="116"/>
+		<property name="Text" value="DRIVETRAIN"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Label">
+		<location x="138" y="5"/>
+		<property name="Text" value="AUTONOMOUS SET"/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.CameraServerViewer">
+		<location x="782" y="7"/>
+		<width>557</width>
+		<height>446</height>
+		<property name="Camera Choice" value=""/>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="651" y="31"/>
+		<width>87</width>
+		<height>83</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.Image">
+		<location x="366" y="235"/>
+		<width>434</width>
+		<height>309</height>
+		<property name="Image File" value="C:\Users\Developer\Desktop\xbox controller.PNG"/>
+	</static-widget>
+	<widget field="Eject Timer" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="241" y="300"/>
+	</widget>
+	<widget field="Intake speed:" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="230" y="273"/>
+	</widget>
+	<widget field="Lift Motor Speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="6" y="383"/>
+	</widget>
+	<widget field="Right Intake Power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="2" y="302"/>
+	</widget>
+	<widget field="Left Intake Power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="11" y="276"/>
+		<height>22</height>
+	</widget>
+	<widget field="Error" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="248" y="192"/>
+	</widget>
+	<widget field="Encoder Average" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="411" y="158"/>
+	</widget>
+	<widget field="Right Encoder" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="198" y="169"/>
+	</widget>
+	<widget field="Left Encoder" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="206" y="142"/>
+	</widget>
+	<widget field="Right Power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="6" y="169"/>
+		<width>186</width>
+	</widget>
+	<widget field="Left Power" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="15" y="141"/>
+	</widget>
+	<widget field="Gyro Angle" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="13" y="193"/>
+		<height>22</height>
+	</widget>
+	<widget field="Strategy" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="202" y="40"/>
+	</widget>
+	<widget field="robotPosition" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="4" y="28"/>
+		<height>50</height>
+	</widget>
+	<widget field="Auto Selector" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="3" y="28"/>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>
